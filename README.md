@@ -3,7 +3,6 @@
 <p align="center"> <img src="/images/ico.png" width="120px"> </p>
 <h1 align="center">&#x1F332 Camp.in &#x1F333</h1>
 
-<<<<<<< HEAD
 <img src="images/apresentacao.gif">
 
 ## <a href="https://gustabriel.github.io/camp.in/"  ><p align="center">Clique aqui para visitar o site<p></a>
