@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="images/ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Camp.in</title>
+</head>
+<body>
+    <main>
+        <header class="logo">
+            <img src="images/logo.svg" alt="">
+        </header>
+        <article class="login">
+            <section class="content-head">
+                <div>
+                    <img src="images/log-in.svg" alt="">
+                    <h1>Faça seu login <span id="pisca">...</span> </h1>
+                </div>
+                <p>
+                    Entre com suas informações de cadastro.
+                </p>
+            </section>
+
+            <section class="content-form">
+                <form action="" autocomplete="off">
+                    <label id="content-email">
+                        <p>E-mail </p>
+                        <div class="campo">
+                            <input type="emai" name="email" id="email" placeholder="Digite seu e-mail" autofocus>
+                        </div>
+                        <div class="erro-email">
+                            <p>Email invalido</p>
+                        </div>
+                    </label>
+                    <label>
+                        <p>Senha</p>
+                        <div class="campo">
+                            <input type="password" name="pass" id="pass" placeholder="Digite sua senha">
+                            <div id="icon-3">
+                                <img src="images/eye.svg" alt="">
+                            </div>
+                            <div id="icon-4">
+                                <img id="eye-closed"src="images/eye-closed.png" alt="" display="block">
+                            </div>
+                        </div>
+                    </label>
+                    <label for="lembre"class="check">
+                        <input type="checkbox" name="lembre" id="lembre"> Lembre-me
+                        <a href="#">Esqueci minha senha</a>
+                    </label>
+                </form>
+            </section>
+            <section class="content-btn">
+                <button type="button" class="btn btn-enter">
+                    ENTRAR
+                </button>
+                <div>
+                    <p>Não tem uma conta?</p>
+                    <a href="#">Registre-se</a>
+                </div>
+            </section>
+        </article>
+    </main>
+    <section class="bg-img">
+    </section>
+
+
+    <section class="modal">
+        <div class="content-modal">
+                <img class="btn-close" src="images/btn-close.png" alt="">
+            <h1>
+                Obrigado por acessar meu projeto ❤
+            </h1>
+            <p>Você pode entrar em contato comigo, ou conhecer mais sobre mim, entrando em uma das minhas redes sociais nos ícones logo abaixo. </p>
+
+            <footer class="social">
+                <ul>
+                    <li><a href="mailto:gabriel_gustavo31@hotmail.com" target="_blank"><img src="images/logo/email-logo.png" alt="Logo do Email"></a></li>
+                    <li><a href="https://www.facebook.com/gabriel.gustavo.102/" target="_blank"><img src="images/logo/facebook-logo.png" alt="Logo do Facebook"></a></li>
+                    <li><a href="https://www.github.com/Gustabriel" target="_blank"><img src="images/logo/github-logo.png" alt="Logo do GitHub"></a></li>
+                    <li><a href="https://www.linkedin.com/in/gabriel-gustavo31/" target="_blank"><img src="images/logo/linkedin-logo.png" alt="Logo do Linkedin"></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5511985781993&text=Olá Gabriel, vim atráves do projeto camp in" target="_blank"><img src="images/logo/whatsapp-logo.png" alt="Logo do Whatsapp"></a></li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
