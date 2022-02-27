@@ -18,7 +18,7 @@
      Preview do site no modo desktop 💻
   </summary>
    <h1 style="margin: auto">
-   <img src="https://imgur.com/VkVksjo">
+   <img src="images/desktop-print.png">
    </h1>
 </details>
 
@@ -27,7 +27,7 @@
      Preview do site no modo mobile 📱
   </summary>
    <h1 style="margin: auto">
-   <img src="https://imgur.com/9f933QY">
+   <img src="images/mobile-print.png">
    </h1>
 </details>
 
