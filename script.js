@@ -52,11 +52,11 @@ btn_enter.addEventListener("click", valid)
         let pass = document.querySelector("#pass");
         let email = document.querySelector("#email");
 
-        if (email.value == "" || email.value == "@" || email.value == ".com") {
+        if (email.value == "") {
             email.placeholder = "Email inválido/inexistente";
         } else if (pass.value == "") {
             pass.placeholder = "Senha incorreta/inexistente";
-        } else if (email.value.includes("@") != true || email.value.includes(".com") != true) {
+        } else if (email.value.includes("@") != true || email.value.includes(".com") != true || email.value === "@" || email.value === ".com") {
             document.querySelector(".erro-email p").style.display = "block";
         } else {
             document.querySelector(".erro-email p").style.display = "none";
