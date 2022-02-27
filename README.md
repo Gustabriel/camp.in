@@ -3,7 +3,7 @@
 <p align="center"> <img src="/images/ico.png" width="120px"> </p>
 <h1 align="center">&#x1F332 Camp.in &#x1F333</h1>
 
-<img src="https://imgur.com/gallery/bQE5G0h">
+<img src="https://imgur.com/Uo6vFKu">
 
 
 ## <a href="https://gustabriel.github.io/camp.in/"  ><p align="center">Clique aqui para visitar o site<p></a>
