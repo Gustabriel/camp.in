@@ -52,13 +52,12 @@ btn_enter.addEventListener("click", valid)
         let pass = document.querySelector("#pass");
         let email = document.querySelector("#email");
 
-        if (email.value == "") {
+        if (email.value == "" || email.value == "@" || email.value == ".com") {
             email.placeholder = "Email inválido/inexistente";
         } else if (pass.value == "") {
             pass.placeholder = "Senha incorreta/inexistente";
-        } else if (email.value.includes("@") != true) {
+        } else if (email.value.includes("@") != true || email.value.includes(".com") != true) {
             document.querySelector(".erro-email p").style.display = "block";
-            console.log("sem @ parça")
         } else {
             document.querySelector(".erro-email p").style.display = "none";
             modal();
